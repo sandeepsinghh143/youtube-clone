@@ -1,0 +1,142 @@
+*{
+	margin:0px;
+	padding:0px 5px;
+	font-family: 'ABeeZee', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:95%;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index:100;;
+	background-color: white;
+}
+svg{
+	width:100px !important;
+}
+.left-div{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	gap:10px;
+}
+
+.middle-div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap:10px;
+}
+.button-group{
+	height: 30px;
+	display: flex;
+	align-items: center;
+	width: 500px;
+	border-radius: 30px;
+	border:1px solid gray;
+	padding:10px;
+}
+
+
+
+
+input{
+	flex:1;
+	height:20px;
+	font-size: 18px;
+	border:none;
+	outline:none;
+}
+#click-button{
+	cursor: pointer;
+}
+.right-div{
+	display: flex;
+	justify-content: space-between;
+	gap:10px;
+	align-items: center;
+}
+.user-icon>img{
+	width:40px;
+	border-radius: 50%;
+}
+.fa-solid{
+	font-weight: 100;
+	font-size: 20px;
+}
+
+
+.middle-section{
+	width:95%;
+	display: flex;
+	padding-top: 100px;
+}
+.menu-left{
+	width:20%;
+}
+hr{
+	padding:0px;
+}
+.nav{
+	padding:15px;
+}
+
+
+#container {
+	width:80%;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap:  10px ;
+    padding: 40px 20px;
+}
+#container > div {
+	width:350px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+	row-gap:0px;
+    position: relative ;
+}
+#container > div > img {
+    width:inherit;
+    height: 80%;
+    cursor: pointer;
+    transition: 0.1s ;
+}
+#container > div > b {
+    position: absolute;
+    right: 5px;
+    background-color: black;
+    padding: 1px;
+    border-radius: 2px;
+    font-weight: 600;
+    color: white ;
+    font-size: 14px;
+    top: calc( 70% - 50px);
+    padding: 2px 5px;
+}
+#container > div > img:hover {
+    transform: scale(1.08) ;
+}
+.title {
+    font-weight: 900;
+    color:black ;
+}
+
+.channel-name , .view-count {
+    color: rgb(17, 16, 16) ;
+    font-size: 12px;
+}
+
+
+
+input:focus {
+    outline : none ;
+}
