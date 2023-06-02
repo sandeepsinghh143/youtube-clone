@@ -11,6 +11,7 @@
 	width:95%;
 	position: fixed;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	z-index:100;;
@@ -139,4 +140,19 @@ hr{
 
 input:focus {
     outline : none ;
+}
+
+@media only screen and (max-width: 920px){
+	.main-header{
+		width:100%;
+		justify-content: center;
+	}
+	#container{
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 450px){
+	.button-group{
+		width: 200px !important;;
+	}
 }
